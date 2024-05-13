@@ -26,7 +26,7 @@ pipeline {
                 script {
                     sh 'sudo rm -rf /var/www/html'
                     sh 'sudo rm -rf /var/www'
-                    sh 'sudo git clone https://github.com/Saddamhussainilios/DemoCICD.git /var/www/html
+                    sh 'sudo git clone https://github.com/Saddamhussainilios/DemoCICD.git /var/www/html'
                 }
             }
         }
